@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Anmeldeformular</title>
+</head>
+<body>
+    <h1>Anmeldung</h1>
+    <!-- GET-Formular -->
+    <form action="anmeldung.php" method="get">
+        <label for="username">Benutzername:</label>
+        <input type="text" name="username" id="username" required><br><br>
+
+        <label for="password">Passwort:</label>
+        <input type="password" name="password" id="password" required><br><br>
+
+        <input type="submit" value="Anmelden">
+    </form>
+
+    <br><br>
+
+    <!-- POST-Formular -->
+    <form action="anmeldung.php" method="post">
+        <label for="username_post">Benutzername:</label>
+        <input type="text" name="username_post" id="username_post" required><br><br>
+
+        <label for="password_post">Passwort:</label>
+        <input type="password" name="password_post" id="password_post" required><br><br>
+
+        <input type="submit" value="Anmelden (POST)">
+    </form>
+</body>
+</html>

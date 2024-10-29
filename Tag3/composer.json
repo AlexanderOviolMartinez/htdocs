@@ -1,0 +1,21 @@
+{
+    "name": "alexanderoviolmartinez/m295",
+    "description": "tag3",
+    "autoload": {
+        "psr-4": {
+            "Alexanderoviolmartinez\\M295\\": "src/",
+            "lib\\": "lib/",
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alex",
+            "email": "alexander.oviolmartinez@edu.gbssg.ch"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "steampixel/simple-php-router": "^0.7.1"
+    }
+}

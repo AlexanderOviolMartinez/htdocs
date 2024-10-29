@@ -1,0 +1,26 @@
+{
+    "name": "it-m-h/m295",
+    "description": "Test-M295-Tag3",
+    "autoload": {
+        "psr-4": {
+            "ItMH\\M295\\": "src/",
+            "lib\\": "lib/",
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IT-Master Heizmann",
+            "email": "info@it-master.ch"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "steampixel/simple-php-router": "^0.7.1",
+        "vlucas/valitron": "^1.4"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "*",
+        "phpunit/phpunit": "^11.4"
+    }
+}
